@@ -1,0 +1,33 @@
+.navigation-list {
+	font-size: 20px;
+}
+
+.navigation-list ul {
+	display: flex;
+}
+
+.navigation-list li:not(:last-child) {
+	margin-right: 42px;
+}
+
+
+
+.navigation-list a {
+	transition: color .2s ease-in;
+	position: relative;
+}
+
+.navigation-list a::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: var(--accent-color);
+	transition: transform 0.2s ease-in-out;
+	transform: scale(0);
+}
+
+.navigation-list a:hover::after {
+	transform: scale(1);
+}

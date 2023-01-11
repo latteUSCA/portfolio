@@ -1,0 +1,31 @@
+.skills {
+	margin-top: 50px;
+	border-top: var(--border-line);
+	padding-top: 20px;
+}
+
+.skills__title {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.skills__new-title {
+	font-size: 21px;
+}
+
+.skills__list {
+	font-size: 19px;
+	margin-bottom: 15px;
+}
+
+.skills__new-list {
+	margin-bottom: 15px;
+}
+
+.skills__new-title {
+	font-size: 18px;
+}
+
+.skills__new-list li {
+	margin-top: 5px;
+}

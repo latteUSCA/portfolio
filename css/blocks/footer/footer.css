@@ -1,0 +1,43 @@
+@import './logo.css';
+
+.footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__info {
+	max-width: 320px;
+}
+
+.footer__logo {
+	margin-bottom: 17px;
+}
+
+.footer-__info-text {
+	margin-bottom: 25px;
+}
+
+.footer__socials {
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+
+}
+
+.footer__socials img {
+	width: 45px;
+	height: 45px;
+}
+
+.footer__socials a img {
+	transition: opacity 0.2s ease-in;
+}
+
+.footer__socials a:hover img {
+	opacity: 0.3;
+}

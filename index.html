@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test task</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<div class="nav__icon">
+					<span></span>
+				</div>
+				<div class="nav__row">
+					<div class="navigation-list">
+						<ul>
+							<li><a href="#details">Personal Details</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#projects">My Projects</a></li>
+							<li><a href="#contacts">Contacts</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="details" class="details">
+			<div class="container">
+				<div class="details__row">
+					<div class="details__text">
+						<h2 class="details__title">Welcome.</h2>
+						<p>My name is Vladislav Khalipov. <br> I'm 20 years old and I'm a Front-End developer from Minsk. <br>
+							I've been studying the development for about a year now.
+						</p>
+						<a class="details__cv"
+							href="https://drive.google.com/file/d/1Qe_IYN9qbGJt9iPIVsT4UQl6ES1j_gQI/view?usp=sharing"
+							target="_blank">&#9755;
+							MY CV</a>
+					</div>
+					<div class="details__img">
+						<img src="img/my_photo.jpg" alt="My Photo">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="skills" class="skills">
+			<div class="container">
+				<h2 class="skills__title">Key skills: </h2>
+				<ul class="skills__list">
+					<li class="skills__list-item">— HTML</li>
+					<li class="skills__list-item">— CSS
+						<ul>
+							<li>— Sass</li>
+						</ul>
+					</li>
+					<li class="skills__list-item">— JavaScript</li>
+					<li class="skills__list-item">— React</li>
+					<li class="skills__list-item">— Redux
+						<ul>
+							<li>— Redux Toolkit</li>
+						</ul>
+					</li>
+					<li class="skills__list-item">— Git</li>
+					<li class="skills__list-item">— Figma</li>
+					<li class="skills__list-item">— Adobe Photoshop</li>
+				</ul>
+				<h3 class="skills__new-title">Here are a new technologies I’ve been working with recently:</h3>
+				<ul class="skills__new-list">
+					<li class="skills__list-item">— Node.js</li>
+					<li class="skills__list-item">— Express</li>
+					<li class="skills__list-item">— MongoDB</li>
+					<li class="skills__list-item">— TypeScript</li>
+					<li class="skills__list-item">— Tailwind CSS</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="projects" class="projects">
+			<div class="container">
+				<h2 class="projects__title">My projects: </h2>
+				<div class="projects__note">
+					<p><strong>Note:</strong> Click on the images below</p>
+				</div>
+				<div class="slider">
+					<div class="slider__item fade"><a target="_blank" href="https://joyful-parfait-2b00b9.netlify.app/"><img
+								src="img/projects/dwidasa.PNG" alt="First Project"></a>
+					</div>
+					<div class="slider__item fade"><a target="_blank"
+							href="https://effulgent-begonia-ed8984.netlify.app/"><img src="img/projects//mitravel.PNG"
+								alt="Second Project"></a>
+					</div>
+					<div class="slider__item fade"><a target="_blank" href="https://serene-beijinho-ecb674.netlify.app/"><img
+								width="700px" src="img/projects/todoApp.PNG" alt="Third Project"></a>
+					</div>
+					<div class="slider__item fade"><a target="_blank"
+							href="https://glittery-blancmange-9e83e7.netlify.app/"><img src="img/projects/calculator.PNG"
+								alt="Fourth Project"></a>
+					</div>
+					<div class="slider__item fade"><a target="_blank" href="https://rad-piroshki-99e3dc.netlify.app/"><img
+								src="img/projects/sneakers.PNG" alt="Fifth Project"></a>
+					</div>
+					<a class="prev">&#10094;</a>
+					<a class="next">&#10095;</a>
+				</div>
+				<br>
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer id="contacts" class="footer">
+		<div class="container">
+			<div class="footer__row">
+				<div class="footer__info">
+					<div class="footer__logo">
+						<div class="logo">
+							<img src="img/svg/contacts.svg" alt="Contacts">
+							<span>Contacts</span>
+						</div>
+					</div>
+					<div class="footer-__info-text">
+						<p>Would you like to contact me? <br> Here are my contacts.</p>
+					</div>
+					<div class="footer__socials">
+						<a target="_blank" href="https://t.me/vladL33T"><img src="./img/svg/Telegram.svg" alt="Telegram"></a>
+						<a target="_blank" href="https://www.linkedin.com/in/vladislav-khalipov-453919253/"><img
+								src="./img/svg/Linkedin.svg" alt="Linkedin"></a>
+						<a target="_blank" href="https://github.com/vlad133L"><img src="./img/svg/Github.svg"
+								alt="Github"></a>
+						<a target="_blank" href="mailto:khalipov.vlad@gmail.com"><img src="./img/svg/Mail.png"
+								alt="Gmail"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

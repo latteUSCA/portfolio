@@ -1,0 +1,18 @@
+@import './slider/slider.css';
+
+.projects {
+	border-top: var(--border-line);
+	border-bottom: var(--border-line);
+	margin-top: 50px;
+	padding: 20px 0;
+	font-size: 25px;
+}
+
+.projects__title {
+	margin-bottom: 30px;
+}
+
+.projects__note {
+	margin-bottom: 20px;
+	font-size: 17px;
+}
