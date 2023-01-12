@@ -1,8 +1,6 @@
 @import "./base/vars.css";
 @import "./base/nullstyle.css";
 @import "./base/base.css";
-
-
 @import "./blocks/header/nav/nav.css";
 @import "./blocks/header/nav/navigation-list.css";
 @import "./blocks/main/details/details.css";

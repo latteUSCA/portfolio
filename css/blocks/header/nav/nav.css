@@ -16,9 +16,6 @@
 	align-items: center;
 }
 
-
-
-
 @media (max-width:800px) {
 	.navigation-list {
 		display: none;
