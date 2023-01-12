@@ -24,7 +24,7 @@ window.addEventListener('scroll', onScrollNav());
 const elements = document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {
     if (iconMenu.classList.contains('_active')) {
-      document.body.classList.remove('_lock');
+      document.documentElement.classList.remove('_lock');
       iconMenu.classList.remove('_active');
       bodyMenu.classList.remove('_active');
       navList.classList.remove('_active');
